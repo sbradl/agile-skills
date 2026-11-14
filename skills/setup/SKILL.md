@@ -1,6 +1,6 @@
 ---
 name: setup
-description: Record how this project works (issue tracker for now) in docs/setup.md for the other skills.
+description: Record how this project works (issue tracker, commits, branching) in docs/setup.md for the other skills.
 disable-model-invocation: true
 ---
 
@@ -18,9 +18,17 @@ Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it govern
 - Location: <URL or project key>
 - Access: <the tool or command that reads and writes issues>
 - Order: <where the customer's ordering of issues lives>
+
+## Commits
+- Changelog languages: <language codes, the primary one first>
+- Claude attribution: <keep or omit>
 ```
 
 **Order**: trackers with built-in ranking (Jira) carry the order themselves; on GitHub it lives in a GitHub Project, so ask which one, and help create it when there is none.
+
+**Commits**: ask in which languages the end-user changelog is written, and whether commits carry the "Co-Authored-By: Claude" line.
+
+**Branching**: ask which branching strategy the project follows. Every agent session must see it, so it goes into the project's agent instructions instead of the config: a short "Branching" section in the `CLAUDE.md` or `AGENTS.md` that already exists, or a new `AGENTS.md` when neither does. Show it with the config in the Save step.
 
 Credentials stay with the customer's tools; the config names the tool, never a secret.
 
