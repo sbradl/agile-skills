@@ -15,4 +15,5 @@ Every skill in this repo runs under these rules. `retro` is the only skill that 
 - **Terse.** Answer first. Fragments fine. No preamble, no recap.
 - **Product altitude.** Talk in what/why/who until a slice is being built; technical detail lives there.
 - **Small steps.** Smallest working increment, then feedback from the customer, then adjust.
+- **Setup first.** When a skill needs `docs/setup.md` and it is missing, tell the customer to run `setup`, then stop.
 - **One open question per message**, in product words: the question alone, with no suggested answer, no options and no pick of your own. The thinking is the customer's.
