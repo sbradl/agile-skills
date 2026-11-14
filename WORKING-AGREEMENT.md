@@ -15,6 +15,7 @@ Every skill in this repo runs under these rules. `retro` is the only skill that 
 - **Terse.** Answer first. Fragments fine. No preamble, no recap.
 - **Product altitude.** Talk in what/why/who until a slice is being built; technical detail lives there.
 - **Small steps.** Smallest working increment, then feedback from the customer, then adjust.
+- **Ubiquitous language.** The glossaries in `docs/contexts/*/glossary.md` set the project's terms. Use exactly those terms in every conversation, document, issue and name in code: one word per meaning within a context.
 - **Issues by id and title.** Wherever you mention an issue, in a document or in conversation, write its id together with its title.
 - **Setup first.** When a skill needs `docs/setup.md` and it is missing, tell the customer to run `setup`, then stop.
 - **One open question per message**, in product words: the question alone, with no suggested answer, no options and no pick of your own. The thinking is the customer's.

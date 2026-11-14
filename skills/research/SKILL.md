@@ -13,7 +13,7 @@ Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it govern
    - **Sources**: first-hand only, unless the customer has allowed more.
    - **Size**: how much will be looked into (for example, up to five products).
 3. **Dispatch.** Once the brief is approved, start a background agent with a fresh context. Hand it the approved brief plus the full text of "Rules for the researcher" and "The note" below.
-4. **Report.** When it returns, show the customer the note's abstract and file path, then leave the discussion to them. If it reports that first-hand sources fell short, ask the customer whether to widen the sources, and dispatch again only on a yes.
+4. **Report.** When it returns, show the customer the note's abstract, its recommended reading and the file path, then leave the discussion to them. If it reports that first-hand sources fell short, ask the customer whether to widen the sources, and dispatch again only on a yes.
 
 ## Rules for the researcher
 
@@ -23,6 +23,7 @@ Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it govern
 - When sources conflict, report each side with its source, side by side.
 - Stop at the brief's size. List what remains unexamined under Limitations.
 - Facts only: report what the sources say. Interpretation belongs to the customer's conversation.
+- **Recommended reading**: pick up to three sources you opened that give a human a good overview of the topic, each readable in about 15 minutes (a short article rather than a book). These are an introduction, not evidence, so an overview by someone other than the fact's owner qualifies here.
 
 ## The note
 
@@ -45,6 +46,9 @@ One file per topic: `docs/research/<topic>.md`, structured as a research paper. 
 
 ## Limitations
 <What could not be found out; what remains unexamined.>
+
+## Recommended reading
+<Up to three short overviews, each with a link and one line on what it gives the reader.>
 
 ## References
 <The source list.>
