@@ -17,7 +17,10 @@ Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it govern
 - Tracker: <which one>
 - Location: <URL or project key>
 - Access: <the tool or command that reads and writes issues>
+- Order: <where the customer's ordering of issues lives>
 ```
+
+**Order**: trackers with built-in ranking (Jira) carry the order themselves; on GitHub it lives in a GitHub Project, so ask which one, and help create it when there is none.
 
 Credentials stay with the customer's tools; the config names the tool, never a secret.
 

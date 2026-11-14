@@ -16,9 +16,9 @@ Every issue this skill writes has this shape:
 
 An issue whose acceptance criteria are missing or unclear is blocked: label it `needs refinement`, using the tracker's existing label for that where one exists.
 
-**Single source**: the issue is the source of truth for its requirements. In every mode, search the project documents and the other issues for duplicate knowledge: text that restates this issue's requirements. Replace each duplicate with a reference to the issue by id and name; show these edits and apply them once the customer confirms.
+**Single source**: the issue is the source of truth for its requirements. In every mode, search the project documents and the other issues for duplicate knowledge: text that restates this issue's requirements. Replace each duplicate with a reference to the issue by id and name. `docs/vision.md` is exempt: leave it exactly as it is.
 
-**Approval**: show the customer the full text of every issue you are about to create or change, and write to the tracker once they approve.
+**Approval**: one issue per message, one approval per issue. Show the customer the full text of a single issue you are about to create or change, and list beneath it the duplicate replacements and any document deletion that come with it. Their approval covers all of it: write the issue, apply the listed changes, then move to the next issue.
 
 ## Modes
 
@@ -28,7 +28,7 @@ Take the mode from the invocation or from the skill that sent you here.
 
 Turn the notes you were given into issues, one per feature or topic. Fill the shape from the notes alone; where the notes hold no acceptance criteria, leave them empty and the issue blocked.
 
-When the notes came from a document describing the feature, delete that document once the issue exists and the customer confirms.
+When the notes came from a document describing the feature, delete that document once the issue exists.
 
 ### Refine
 

@@ -25,6 +25,7 @@ Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it govern
 
 - "Why it exists" carries the most weight.
 - "What it does" stays at **elevator pitch** altitude: the few core capabilities of the product as it should exist, in one short paragraph or a handful of bullets. Feature details and anything meant for later become issues (step 6).
+- The vision stands alone: it holds the big picture and never refers to issues.
 - The appendix is optional: findings about similar products and what this one should do better, each with its source.
 - Reading time: a few minutes. The reader knows the problem domain, so skip the basics.
 - Phrase it yourself for clarity and good formatting; every piece of content comes from the customer.
