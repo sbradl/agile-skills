@@ -4,13 +4,13 @@ description: Check the top of the backlog against the product vision and report 
 disable-model-invocation: true
 ---
 
-Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it governs this run. This skill needs `docs/setup.md` with its Order entry, and `docs/vision.md`; when the vision is missing, tell the customer to run `vision`, then stop.
+Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it governs this run. This skill needs `docs/setup.md` with its Order entry, and `docs/vision.md`; when the vision is missing, tell the user to run `vision`, then stop.
 
-This is a **read-only** review: it reports in the conversation and leaves the tracker and every file as they are. What to do about a finding is the customer's decision.
+This is a **read-only** review: it reports in the conversation and leaves the tracker and every file as they are. What to do about a finding is the user's decision.
 
 ## Steps
 
-1. Read the vision, then fetch the top 20 open issues in the customer's order, through the access and Order recorded in `docs/setup.md`.
+1. Read the vision, then fetch the top 20 open issues in priority order, through the access and Order recorded in `docs/setup.md`.
 2. Sort every one of those issues into exactly one group:
    - **Towards the vision**: serves a named section of the vision.
    - **Upkeep**: bugs and technical tasks.

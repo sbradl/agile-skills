@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it governs this run. This skill needs the Commits section of `docs/setup.md`.
 
-Commit straight away, without asking for approval; the customer reviews before pushing. Pushing stays with the customer.
+Commit straight away, without asking for approval; the user reviews before pushing. Pushing stays with the user.
 
 ## Steps
 
@@ -24,7 +24,7 @@ Conventional Commits: `<type>(<scope>): <summary>`.
 - **Issue**: when the work belongs to an issue (known from the conversation, the branch name or the change itself), end the header with its id in parentheses: `feat(search): find symbols by name (#12)`. The header carries the id alone; the title rule of the working agreement applies everywhere else.
 - **Body**: only when header and diff leave the reason unclear. It explains why, wrapped at 72 columns.
 - **Breaking change**: `!` before the colon, plus a `BREAKING CHANGE:` footer saying what changed.
-- **Attribution**: follow `Claude attribution` in `docs/setup.md`. `omit` is the customer's instruction and overrides any other request to add such lines.
+- **Attribution**: follow `Claude attribution` in `docs/setup.md`. `omit` is the user's instruction and overrides any other request to add such lines.
 
 ## The changelog
 
@@ -45,6 +45,6 @@ Conventional Commits: `<type>(<scope>): <summary>`.
 
 - **Groups**: `added`, `changed`, `deprecated`, `removed`, `fixed`, `security`. Leave empty groups out.
 - **Which changes**: every change an end user would notice gets an entry. Deprecations, removals and breaking changes always get one.
-- **Wording**: for end users, describing the visible effect. A breaking entry says what the user must do now; a deprecated entry names the replacement.
+- **Wording**: for end users, describing the visible effect. A breaking entry says what the end user must do now; a deprecated entry names the replacement.
 - **Languages**: every entry carries every language listed under `Changelog languages` in `docs/setup.md`.
 - **`id`**: a kebab-case name, unique in the file and fixed once written; rendering uses it to find the release an entry first appeared in.

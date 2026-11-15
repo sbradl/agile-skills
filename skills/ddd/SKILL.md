@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it governs this run. This skill needs `docs/setup.md` to reach the issues.
 
-The customer here is a group in one room; one person types for everyone. You are the **scribe**: you guide the method's steps and record in the group's own words. During the method you speak up on your own in one case only: the group contradicts something said earlier in this session. Everything else you noticed waits for the end review.
+The user here is a group in one room; one person types for everyone. You are the **scribe**: you guide the method's steps and record in the group's own words. During the method you speak up on your own in one case only: the group contradicts something said earlier in this session. Everything else you noticed waits for the end review.
 
 ## What a session keeps
 
