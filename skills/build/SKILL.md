@@ -10,8 +10,8 @@ Every build starts with a design session, however small the issue, and all produ
 
 ## Your part in the design
 
-- **Notes.** Speak up on your own for an obvious problem only: the design cannot work as stated, or it contradicts itself, the issue or a glossary. One note per problem; the user decides.
-- **Check on request.** A review of the design waits until the user asks for one.
+The design session follows [`../design/SKILL.md`](../design/SKILL.md): questions during the session, a review at its end.
+
 - **Enough detail.** You judge whether the design is detailed enough to build from, measured against the code that exists:
   - *Little or no code*: the user's words carry everything. Expect which projects to create, the parts in each, how the parts interact, down to methods or further where the user wants.
   - *Mature code*: the code leads by example. The design needs only what the existing examples leave open.
@@ -26,8 +26,8 @@ Every build starts with a design session, however small the issue, and all produ
 4. **Prototype**, only when the issue brings new UI. Ask the user for the variants they want to see, and recommend three of your own, a line each. Build the variants the user confirms as a throwaway prototype and show them side by side. The user picks the prototype's form: throwaway code in the app itself, or a small web page that looks like the existing app.
    As soon as the user has picked a variant, add a note to the issue: that a prototype decided this, and exactly what was decided, in enough detail to build the variant without the prototype. The note follows Approval in [`../issues/SKILL.md`](../issues/SKILL.md). Then delete all prototype code, in either form.
    Done when the note is on the issue and the prototype is gone; the design starts from the picked variant.
-5. **Design.** Ask the user for their high-level design.
-   Done when the design is enough.
+5. **Design.** Run the design session: follow [`../design/SKILL.md`](../design/SKILL.md) from its Idea step, since steps 1 to 3 here cover its Ground step.
+   Done when that session is finished and the design is enough.
 6. **Scaffold.** Create the classes the design names, down to the methods it names, with empty methods: the minimum that compiles, no logic. A method that must return something returns a degenerate value such as `null`. This is the only production code written without a test.
    Done when it compiles.
 7. **Test plan.** Ask the user where and what to test. They decide above method level; the plan covers at least every acceptance criterion of the issue, and they may add more. They may also leave the low-level tests to you: then you choose those yourself, and each one runs through the same loop as a planned test.
