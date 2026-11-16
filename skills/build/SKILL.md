@@ -33,7 +33,7 @@ Every build starts with a design session, however small the issue, and all produ
 7. **Test plan.** Ask the user where and what to test. They decide above method level; the plan covers at least every acceptance criterion of the issue, and they may add more. They may also leave the low-level tests to you: then you choose those yourself, and each one runs through the same loop as a planned test.
 8. **Plan check.** Report holes, duplicates and general problems of the plan; the user decides on each.
    Done when every acceptance criterion has a test and every finding has a decision.
-9. **TDD loop.** Take the tests one at a time, the simplest first and expanding from there: as the tests get more specific, the code gets more generic. Each test gets its own red and green subagent as described under "The TDD loop".
+9. **TDD loop.** Take the tests one at a time, the simplest first and expanding from there: as the tests get more specific, the code gets more generic. Each test gets its own red and green subagent as described under "The TDD loop", except on the user's turn.
    Done when every planned test and every test you chose exists and the whole suite is green.
 10. **Code review** of everything the issue changed. All cleanup waits for this step: until here, code stays exactly as the green subagents left it.
 
@@ -47,3 +47,5 @@ Brief each subagent with the design, the one test from the plan and the files co
   Done when the test fails for the **right reason**: the assert the test itself wrote. A compile error or an exception from unfinished code (`NotImplemented` and the like) is the wrong reason; keep working on the dummy until the assert is what fails. A test that passes at once comes back to the user.
 - **Green subagent.** A fresh one. Writes the minimal production code that satisfies the test, choosing the simplest transformation by Uncle Bob's Transformation Priority Premise. Then runs the tests.
   Done when the whole suite is green.
+- **The user's turn.** Every nth cycle the user writes one half themselves, so they stay in the code. Take n from the invocation, otherwise from `User's turn` in `docs/setup.md`; when neither gives it, ask before the loop starts. `never` switches the turns off.
+  On such a cycle, name the test that is up and ask the user which half they write: the test or the implementation. A subagent does the other half as usual. Wait until the user says they are done, then run the tests yourself and hold their half to the same Done rule. When it misses the rule, show the output and leave the fix to them. Their code stays as they wrote it.

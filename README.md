@@ -39,7 +39,7 @@ The rules are written down in the [working agreement](WORKING-AGREEMENT.md). Eve
   - When: Now and then, to see whether the backlog still fits the vision.
   - Why: Backlogs drift: off-topic features and upkeep crowd out what the vision asks for. The review shows the drift and leaves the decision to you.
   - Writes: nothing
-- **`build`**: Builds an issue test-first. Starts with a short design session that you lead.
+- **`build`**: Builds an issue test-first. Starts with a short design session that you lead. The agent writes most of the code, but every few red-green cycles you write a test or an implementation yourself. How often is set in `setup` or when calling `build`.
   - When: An issue is ready to be built.
   - Why: The design and the choice of what to test are yours, so nothing is built on a design nobody decided. Going one test at a time keeps the agent from writing more than was asked for.
   - Writes: code

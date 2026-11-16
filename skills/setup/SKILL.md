@@ -22,11 +22,16 @@ Read [`../../WORKING-AGREEMENT.md`](../../WORKING-AGREEMENT.md) first; it govern
 ## Commits
 - Changelog languages: <language codes, the primary one first>
 - Claude attribution: <keep or omit>
+
+## Build
+- User's turn: <every nth red-green cycle, or never>
 ```
 
 **Order**: trackers with built-in ranking (Jira) carry the order themselves; on GitHub it lives in a GitHub Project, so ask which one, and help create it when there is none.
 
 **Commits**: ask in which languages the end-user changelog is written, and whether commits carry the "Co-Authored-By: Claude" line.
+
+**Build**: ask how often the user writes a test or an implementation themselves during `build`: every nth red-green cycle, or never.
 
 **Branching**: ask which branching strategy the project follows. Every agent session must see it, so it goes into the project's agent instructions instead of the config: a short "Branching" section in the `CLAUDE.md` or `AGENTS.md` that already exists, or a new `AGENTS.md` when neither does. Show it with the config in the Save step.
 
