@@ -50,3 +50,4 @@ Credentials stay with the user's tools; the config names the tool, never a secre
    - `/vision` captures the product vision. It makes clear what belongs in the product and what does not.
    - `/ddd` brings the whole group together to agree on a shared language, which the issues and the code then use.
    - `/issues` turns your notes into issues that are clear enough to build.
+   - `/help-me` is there whenever you are unsure what to do next, also in the middle of another skill. It asks a few questions, then lays out your options.
