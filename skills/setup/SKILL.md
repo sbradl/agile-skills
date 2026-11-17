@@ -46,3 +46,7 @@ Credentials stay with the user's tools; the config names the tool, never a secre
 5. **Verify.** Read the issue list through the recorded access.
    Done when that read succeeds.
 6. **Save.** Show the config and save it to `docs/setup.md` once the user approves.
+7. **What next.** Only on a first run, when step 1 found no config: close with a few lines on where to go from here, each skill with its purpose.
+   - `/vision` captures the product vision. It makes clear what belongs in the product and what does not.
+   - `/ddd` brings the whole group together to agree on a shared language, which the issues and the code then use.
+   - `/issues` turns your notes into issues that are clear enough to build.
